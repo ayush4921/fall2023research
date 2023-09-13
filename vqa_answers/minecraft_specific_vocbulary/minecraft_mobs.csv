@@ -1,0 +1,80 @@
+Mob,Java Version,Bedrock Version,Spawn Egg,Categories
+Allay,1.19,1.19,[a] java 1.19,breedable flying passive tameable
+Axolotl,1.17,1.17,[a] java 1.17,animal aquatic breedable passive
+Bat,1.4,1.0,[a] java 1.4,animal flying passive
+Bee,1.15,1.14,[a] java 1.15,animal arthropod breedable flying neutral
+Blaze,1.0,1.0,[a] java 1.1,flying hostile nether
+Camel,1.2,1.2,[a] java 1.20,animal breedable passive rideable tameable
+Cat,1.2,1.0,[a] java 1.14,animal breedable passive tameable
+Cave Spider,1.0,1.0,[a] java 1.1,arthropod neutral
+Chicken,1.0,1.0,[a] java 1.1,animal breedable flying passive
+Cod,1.13,1.4,[a] java 1.13,animal aquatic fish passive
+Cow,1.0,1.0,[a] java 1.1,animal breedable passive
+Creeper,1.0,1.0,[a] java 1.1,hostile
+Dolphin,1.13,1.4,[a] java 1.13,animal aquatic neutral
+Donkey,1.6,1.0,[a] java 1.11,animal breedable passive rideable tameable
+Drowned,1.13,1.4,[a] java 1.13,hostile undead
+Elder Guardian,1.8,1.0,[a] java 1.8,aquatic hostile
+Ender Dragon,1.0,1.0,[a] java 1.20,flying hostile boss end
+Enderman,1.0,1.0,[a] java 1.1,neutral end
+Endermite,1.8,1.0,[a] java 1.8,arthropod hostile
+Evoker,1.11,1.1,[a] java 1.11,hostile raid illager
+Fox,1.14,1.13,[a] java 1.14,animal breedable passive tameable
+Frog,1.19,1.19,[a] java 1.19,animal aquatic breedable passive
+Ghast,1.0,1.0,[a] java 1.1,hostile flying nether
+Giant,1.0,1.0,,hostile
+Glow Squid,1.17,1.17,[a] java 1.17,animal aquatic passive
+Goat,1.17,1.17,[a] java 1.17,animal breedable neutral
+Guardian,1.8,1.0,[a] java 1.8,aquatic hostile
+Hoglin,1.16,1.16,[a] java 1.16,breedable hostile nether piglin
+Horse,1.6,1.0,[a] java 1.6,animal breedable passive rideable tameable
+Husk,1.1,1.0,[a] java 1.11,hostile undead
+Illusioner,1.12,1.0,,illager
+Iron Golem,1.2,1.0,[a] java 1.20,golem neutral
+Llama,1.11,1.0,[a] java 1.11,animal breedable neutral tameable
+Magma Cube,1.0,1.0,[a] java 1.1,hostile nether
+Mooshroom,1.0,1.0,[a] java 1.1,animal breedable passive
+Mule,1.6,1.0,[a] java 1.11,animal passive rideable tameable
+Ocelot,1.2,1.0,[a] java 1.2,animal breedable passive tameable
+Panda,1.14,1.8,[a] java 1.14,animal breedable neutral
+Parrot,1.12,1.2,[a] java 1.12,animal flying passive tameable
+Phantom,1.13,1.6,[a] java 1.13,flying hostile undead
+Pig,1.0,1.0,[a] java 1.1,animal breedable passive rideable
+Piglin,1.16,1.16,[a] java 1.16,nether neutral piglin
+Piglin Brute,1.16,1.16,[a] java 1.16,hostile nether piglin
+Pillager,1.14,1.9,[a] java 1.14,hostile raid illager
+Polar Bear,1.1,1.0,[a] java 1.10,animal breedable neutral
+Pufferfish,1.13,1.4,[a] java 1.13,animal aquatic fish passive
+Rabbit,1.8,1.0,[a] java 1.8,animal breedable passive
+Ravager,1.14,1.1,[a] java 1.14,hostile raid illager
+Salmon,1.13,1.4,[a] java 1.13,animal aquatic fish passive
+Sheep,1.0,1.0,[a] java 1.1,animal breedable passive
+Shulker,1.9,1.0,[a] java 1.9,hostile end
+Silverfish,1.0,1.0,[a] java 1.1,arthropod hostile
+Skeleton,1.0,1.0,[a] java 1.1,hostile nether undead
+Skeleton Horse,1.6,1.0,[a] java 1.11,passive rideable tameable undead
+Slime,1.0,1.0,[a] java 1.1,hostile
+Sniffer,1.2,1.2,[a] java 1.20,breedable passive
+Snow Golem,1.0,1.0,[a] java 1.20,golem passive
+Spider,1.0,1.0,[a] java 1.1,arthropod neutral
+Squid,1.0,1.0,[a] java 1.1,animal aquatic passive
+Stray,1.1,1.0,[a] java 1.11,hostile undead
+Strider,1.16,1.16,[a] java 1.16,breedable nether passive rideable
+Tadpole,1.19,1.19,[a] java 1.19,animal aquatic passive
+Trader Llama,1.14,1.1,[a] java 1.14,animal tameable
+Tropical Fish,1.13,1.4,[a] java 1.13,animal aquatic fish passive
+Turtle,1.13,1.5,[a] java 1.13,animal aquatic breedable passive
+Vex,1.11,1.1,[a] java 1.11,flying hostile illager
+Villager,1.0,1.0,[a] java 1.1,breedable passive trader villager
+Vindicator,1.11,1.1,[a] java 1.11,hostile raid illager
+Wandering Trader,1.14,1.1,[a] java 1.14,trader villager passive
+Warden,1.19,1.19,[a] java 1.19,hostile
+Witch,1.4,1.0,[a] java 1.4,hostile raid illager
+Wither,1.4,1.0,[a] java 1.20,boss flying hostile undead
+Wither Skeleton,1.4,1.0,[a] java 1.11,hostile nether undead
+Wolf,1.0,1.0,[a] java 1.1,animal breedable neutral tameable
+Zoglin,1.16,1.16,[a] java 1.16,hostile nether piglin undead
+Zombie,1.0,1.0,[a] java 1.1,hostile undead
+Zombie Horse,1.6,1.0,[a] java 1.11,neutral undead
+Zombie Villager,1.4,1.0,[a] java 1.11,hostile villager undead
+Zombified Piglin,1.0,1.0,[a] java 1.1,hostile nether undead piglin
