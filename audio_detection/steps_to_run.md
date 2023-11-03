@@ -4,4 +4,4 @@
 `brew uninstall librist --ignore-dependencies`
 `brew uninstall mbedtls --ignore-dependencies`
 `brew reinstall scrcpy`
-`python speech_to_text name_of_audio_file`
+`python speech_to_text.py name_of_audio_file`
