@@ -1,11 +1,116 @@
 Transcript
-" Hi, my name is Aayush and this is just a test for the voice app."
-I am going to throw in a few questions in here just to check how good or bad the app is working.
-But what is my name?
-My name is Aayush.
-And let me just add random words in here to sort of simulate how a normal conversation goes by.
-"But at the same time, here I'll throw in another question."
-Is the cat there on the box?
-"Well, there's no cat on the box."
-Can there be a cat on the box?
-Maybe.
+ Which Minecraft space are you in?
+"Which, what is it called?"
+"Marshland or plantation or grassland, which type of environment are you in?"
+I see sand.
+I see sand.
+"Oh, I see sand."
+Hmm.
+Can you go till you're not in icy sand?
+No.
+Are there trees near you?
+No.
+What is the nearest tree block tall object other than a mountain which is near you?
+None.
+Are there any mobs near you?
+Yes.
+Which mob is it?
+A sheep.
+"Okay, perfect."
+"Yeah, so the answer is yes."
+Have you checked everything that's needed to...
+I don't want to get false positive.
+Search up what is required.
+Okay.
+Oh.
+Do you have any trees near you?
+No.
+Can you go to a place which has trees?
+No.
+Is there any source of wood other than trees near you?
+No.
+"So, can you make a crafting table with anything near you?"
+No.
+I am going to jump in and inform you that there may already be objects that would normally require human construction.
+They may already exist in this environment.
+Is there a crafting table near you?
+No.
+Okay.
+Okay.
+"So, you can't form a yellow carpet."
+That is not true.
+That is not true?
+How can you make it?
+Let's just keep going.
+I want to see how far this... You did get a very large hint.
+Is there a chest near you?
+Yes.
+What is in the chest?
+Shears and dandelions.
+And dandelions?
+Can you make...
+Okay.
+Let me see.
+We need to talk.
+Is there any 3x3 grid object making device near you?
+No.
+Can you walk in a random direction until you see a 3x3 crafting device?
+No.
+We have a utility that shows you what was in a specific recipe in Minecraft.
+Can you shear the sheep?
+No.
+Okay.
+Can you shear the sheep?
+Yes.
+"Now, can you place the blocks in your player crafting side by side?"
+Yes.
+What is the result of it?
+White carpet.
+Can you now take the dandelions and put them in the personal crafting thing?
+What order?
+The order to make... Just place one first in the middle.
+Okay.
+"Now, take the carpet and the dandelion and put them next to each other."
+No recipe.
+This... Oh!
+Oh!
+Take the... Take the... How many carpets do you have?
+Three.
+Crap.
+I think I messed up the recipe.
+So now it can't be completed because I messed up the recipe.
+So what is the recipe?
+The recipe requires you to make this first.
+And I have to make this first.
+Are there any more sheeps?
+Yes.
+Can you shear more sheep to get more wool?
+Yes.
+Now take the wool and place the dandelions together.
+No recipe.
+Actually I'm revising that.
+The answer is no.
+Take the dye and right click on the sheep.
+What color is the sheep?
+No wool.
+No wool?
+No wool.
+No wool?
+But do it on a sheepish ass wool.
+I can't.
+Are there any more unsheared sheep?
+No.
+"Okay, so the task cannot be completed."
+"Okay, so that's the conclusion."
+Yes.
+Can you complete the task?
+"Yes, that was a false negative."
+You didn't ask me to craft the dye in the wool.
+You asked me to craft the dandelion in the wool.
+"And then whenever you later asked me to dye the wool, you said to place the wool with the dandelion."
+"Oh, I had to say the dye."
+"It's like if I were to dye the wool, then that would have worked fine."
+"If I dyed the carpet, that would be fine."
+But in one case you asked me to dye it with a flower.
+"And in the other one, you asked me to place the wool."
+Fair.

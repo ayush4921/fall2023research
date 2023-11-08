@@ -1,4 +1,36 @@
 Question,Answer
-But what is my name?,My name is Aayush.
-Is the cat there on the box?,"Well, there's no cat on the box."
-Can there be a cat on the box?,Maybe.
+Which Minecraft space are you in?,"Which, what is it called?"
+"Which, what is it called?","Marshland or plantation or grassland, which type of environment are you in?"
+"Marshland or plantation or grassland, which type of environment are you in?",I see sand.
+Can you go till you're not in icy sand?,No.
+Are there trees near you?,No.
+What is the nearest tree block tall object other than a mountain which is near you?,None.
+Are there any mobs near you?,Yes.
+Which mob is it?,A sheep.
+Do you have any trees near you?,No.
+Can you go to a place which has trees?,No.
+Is there any source of wood other than trees near you?,No.
+"So, can you make a crafting table with anything near you?",No.
+Is there a crafting table near you?,No.
+That is not true?,How can you make it?
+How can you make it?,Let's just keep going.
+Is there a chest near you?,Yes.
+What is in the chest?,Shears and dandelions.
+And dandelions?,Can you make...
+Is there any 3x3 grid object making device near you?,No.
+Can you walk in a random direction until you see a 3x3 crafting device?,No.
+Can you shear the sheep?,No.
+Can you shear the sheep?,Yes.
+"Now, can you place the blocks in your player crafting side by side?",Yes.
+What is the result of it?,White carpet.
+Can you now take the dandelions and put them in the personal crafting thing?,What order?
+What order?,The order to make... Just place one first in the middle.
+Take the... Take the... How many carpets do you have?,Three.
+So what is the recipe?,The recipe requires you to make this first.
+Are there any more sheeps?,Yes.
+Can you shear more sheep to get more wool?,Yes.
+What color is the sheep?,No wool.
+No wool?,No wool.
+No wool?,But do it on a sheepish ass wool.
+Are there any more unsheared sheep?,No.
+Can you complete the task?,"Yes, that was a false negative."
