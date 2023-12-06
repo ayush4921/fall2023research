@@ -1,0 +1,10 @@
+2023-12-06 13:04:55 Ayushs-MBP.richmond.edu watchdog[24895] INFO Watchdog started between parent 24877 and child 24880
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO Parent is not running, hence we need terminate the child.
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO About to reap process tree of 24880:bash:/bin/bash i running, owner 1, printing process tree status in termination order:
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO 	-24893:java:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java i running, owner 24885
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO 	-24885:java:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java i running, owner 24880
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO 	-24880:bash:/bin/bash i running, owner 1
+2023-12-06 13:07:06 Ayushs-MBP.richmond.edu watchdog[24895] INFO Trying to SIGTERM 24893:java:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java i running, owner 24885
+2023-12-06 13:07:07 Ayushs-MBP.richmond.edu watchdog[24895] INFO Process psutil.Process(pid=24893, name='java', status='terminated', started='13:04:53') terminated with exit code None
+2023-12-06 13:07:07 Ayushs-MBP.richmond.edu watchdog[24895] INFO Process psutil.Process(pid=24885, name='java', status='terminated', started='13:04:51') does not exist or is zombie.
+2023-12-06 13:07:07 Ayushs-MBP.richmond.edu watchdog[24895] INFO Process psutil.Process(pid=24880, name='bash', status='terminated', started='13:04:51') does not exist or is zombie.

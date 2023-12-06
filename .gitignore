@@ -1,3 +1,5 @@
 ./mob_detection
-mob_detection/
+mob_detection/minecraft_coco
+mob_detection/minecraft_tensorflow
+mob_detection/detr-resnet-50_finetuned_cppe5
 venv/
