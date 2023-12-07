@@ -1,13 +1,4 @@
 import numpy as np
-import minedojo
-import numpy as np
-
-# Define the functions for projection and view matrix creation, and screen coordinate conversion
-# (functions `create_projection_matrix`, `create_view_matrix`, and `convert_to_screen_coordinates` should be defined here as per your provided script)
-
-# Initialize MineDojo environment
-env = minedojo.make(task_id="creative:255", image_size=(1920, 1080))  # Example scenario
-obs = env.reset()
 
 
 def create_projection_matrix(fov, aspect_ratio, near, far):
@@ -95,33 +86,3 @@ def convert_to_screen_coordinates(
     )
 
     return screen_pos
-
-
-# Extract camera parameters from observations
-fov = 70  # Assuming a fixed field of view
-aspect_ratio = 1920 / 1080  # Assuming a fixed aspect ratio
-
-# Use the initial camera position and orientation from the environment
-cam_position = np.array(
-    [
-        obs["location_stats"]["pos"][0],
-        obs["location_stats"]["pos"][1],
-        obs["location_stats"]["pos"][2],
-    ]
-)
-cam_pitch = obs["location_stats"]["pitch"][0]
-cam_yaw = obs["location_stats"]["yaw"][0]
-
-# Set near and far clipping planes
-near = 0.1
-far = 1000.0
-
-# Sample 3D position to convert (for example, the agent's current position)
-pos_3d = cam_position
-
-# Convert to screen coordinates
-screen_coords = convert_to_screen_coordinates(
-    pos_3d, fov, aspect_ratio, near, far, cam_position, cam_pitch, cam_yaw
-)
-
-print("Screen Coordinates:", screen_coords)
