@@ -125,3 +125,4 @@ xmltodict==0.13.0
 xxhash==3.3.0
 yarl==1.9.2
 zipp==3.16.2
+sounddevice
