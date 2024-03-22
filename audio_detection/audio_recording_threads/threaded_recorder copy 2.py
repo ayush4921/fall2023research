@@ -10,27 +10,35 @@ import numpy as np
 import logging
 import gym
 from minerl.herobraine.env_specs.human_survival_specs import HumanSurvival
-from mine import test_turn
+
 import coloredlogs
 
 coloredlogs.install(logging.DEBUG)
-env_running = False
+env_commands = queue.Queue()
 
 
-# def test_turn(resolution):
-#     global env_running
-#     env = gym.make("MineRLObtainDiamondShovel-v0")
-#     env.reset()
-#     _, _, _, info = env.step(env.action_space.noop())
-#     N = 100
-#     for i in range(N):
-#         if not env_running:  # Check if we should stop interacting with the environment
-#             break
-#         ac = env.action_space.noop()
-#         ac["camera"] = [0.0, 360 / N]
-#         _, _, _, info = env.step(ac)
-#         env.render()
-#     env.close()
+def environment_manager():
+    global env_running
+    env = gym.make("MineRLObtainDiamondShovel-v0")
+    env.reset()
+
+    while True:
+        command = env_commands.get()  # Wait for the next command
+        if command == "start":
+            env_running = True
+            for _ in range(100):  # Example interaction loop
+                if not env_running:
+                    break  # Stop the loop if env_running is set to False
+                ac = env.action_space.noop()
+                ac["camera"] = [0.0, 360 / 100]
+                env.step(ac)
+                env.render()
+            env.reset()
+        elif command == "stop":
+            env_running = False
+        elif command == "exit":
+            env.close()
+            break
 
 
 class AudioRecorder:
@@ -138,14 +146,22 @@ class Application(tk.Frame):
 
 
 def status_monitor(app, stop_event):
-    global env_running
     while not stop_event.is_set():
         if app.status == "Start" and not env_running:
-            env_running = True
-            test_turn((640, 360))
+            env_commands.put("start")
         elif app.status == "Stop":
-            env_running = False
+            env_commands.put("stop")
+    env_commands.put("exit")
 
+
+root = tk.Tk()
+root.title("Audio Recorder")
+app = Application(master=root)
+app.master.geometry("400x300")
+
+
+env_thread = threading.Thread(target=environment_manager, daemon=True)
+env_thread.start()
 
 root = tk.Tk()
 root.title("Audio Recorder")
@@ -156,4 +172,8 @@ thread = threading.Thread(target=status_monitor, args=(app, stop_event), daemon=
 thread.start()
 root.protocol("WM_DELETE_WINDOW", app.on_closing)
 app.mainloop()
+
+# After mainloop ends
 stop_event.set()
+env_commands.put("exit")  # Ensure the environment manager thread exits
+env_thread.join()
